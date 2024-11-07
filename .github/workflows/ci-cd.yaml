@@ -35,7 +35,7 @@ jobs:
       
       - name: run automated tests
         env:
-           ConnectionStrings__DefaultConnection: Data Source=localhost; Initial Catalog=CICDTest;Integrated Security=True;Multiple Active Result Sets=True;User=sa;Password=P@ss_w0rd
+           ConnectionStrings__DefaultConnection: Server=localhost; Database=CICDTest;User=sa;Password=P@ss_w0rd
         run: dotnet test -c Release --no-build
       
       - name: Publish app
