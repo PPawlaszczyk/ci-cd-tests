@@ -5,7 +5,7 @@ namespace Test_CI_CD
     public class Customer
     {
         public int Id { get; set; }
-        public string CustomerName { get; set; }
+        public string CustomerName { get; set; } = "";
 
     }
 
