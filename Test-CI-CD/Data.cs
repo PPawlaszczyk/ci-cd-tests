@@ -14,5 +14,6 @@ namespace Test_CI_CD
         public CustomerContext(DbContextOptions<CustomerContext> options) : base(options) { }
 
         public DbSet<Customer> Customers { get; set; }
+        //.
     }
 }
